@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoReverseNameApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoReverseNameApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoReverseNameApplication.class, args);
+    }
 
 }

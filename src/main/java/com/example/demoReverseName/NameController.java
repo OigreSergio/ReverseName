@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NameController {
     @GetMapping("/name")
-    public String getName(@RequestParam String name){
+    public String getName(@RequestParam String name) {
         return name;
     }
+
     @PostMapping("/name")
-    public String getRevertName(@RequestParam String name){
-       return new StringBuilder(name).reverse().toString();
+    public String getRevertName(@RequestParam String name) {
+        return new StringBuilder(name).reverse().toString();
     }
 }
